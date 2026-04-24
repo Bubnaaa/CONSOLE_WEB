@@ -1,4 +1,4 @@
-# README - Naše hra LAN Infiltrator
+# LAN Infiltrator
 
 ### Projekt vypracovali:
 * **Michal Bubna**
@@ -7,7 +7,7 @@
 
 ---
 
-## O čem to vlastně je?
+## O čem hra vlastně je?
 V téhle hře si zahraješ na hackera. Tvým úkolem je nabourat se do sítě jedné firmy a zavirovat tam všech 9 místností. Když se ti povede ovládnout úplně všechno, vyhrál jsi.
 
 Ale pozor – není to jen tak. Čím víc věcí v terminálu zkoušíš, tím víc o tobě systém ví. Máš tam nahoře ukazatel "Detection Level", a jakmile vyletí na 100 %, admin tě odpojí a končíš.
@@ -15,7 +15,7 @@ Ale pozor – není to jen tak. Čím víc věcí v terminálu zkoušíš, tím 
 ## Jak se to hraje?
 Celá hra běží v terminálu, kam píšeš příkazy.
 
-**Napadení:** Když chceš nějakou místnost ovládnout, musíš vyřešit takovou mini-hru – systém ti vyhodí kód a ty ho musíš bleskově napsat pozpátku.
+**Napadení:** Když chceš nějakou místnost ovládnout, musíš vyřešit takovou mini-hru – systém ti vyhodí kód a ty ho musíš napsat pozpátku.
 
 **Zámky a hesla:** Do některých místností (třeba k šéfovi nebo do serverovny) se nedostaneš jen tak. Musíš nejdřív hacknout jiné místnosti a v nich přes příkaz `search` najít přístupové klíče.
 
@@ -30,5 +30,5 @@ Celá hra běží v terminálu, kam píšeš příkazy.
 
 ## Co jsme použili a jak to vzniklo?
 * Udělali jsme to pomocí **HTML, CSS a JavaScriptu**.
-* S logikou a některými složitějšími částmi kódu nám pomohla **umělá inteligence**.
+* S logikou a některými složitějšími částmi kódu nám pomohla umělá inteligence.
 * Celý svět (místnosti a jejich propojení) je vymyšlený tak, aby se dal snadno měnit nebo rozšiřovat.
